@@ -19,5 +19,20 @@
 - **Energy Demand Forecasting**: Machine learning models can analyze historical energy consumption data, weather patterns, and other relevant factors to forecast future energy demand. This is crucial for optimizing energy generation, distribution, and pricing.
 
 - **Financial Market Prediction**: Machine learning algorithms can analyze historical financial data and market indicators to predict stock prices, currency exchange rates, and other market trends. These predictions are used by traders, investors, and financial institutions for decision-making.
-  - choose one - speech and emotion recognition
-- Take a real world project and document the use of machine learning algorithms and mathematical constructs behind it.
+### Recommendation Systems: 
+Recommendation systems are machine learning algorithms that analyze user preferences and behaviors to provide personalized recommendations. These algorithms are widely used in various applications, including e-commerce platforms, streaming services, and social media platforms. Here are brief explanations of some popular recommendation algorithms:
+
+Collaborative Filtering: Collaborative filtering is a widely used recommendation technique that relies on user behavior data. It identifies similar users based on their past interactions and recommends items that those similar users have liked or consumed. Collaborative filtering can be based on either user-based or item-based similarity.
+
+Content-Based Filtering: Content-based filtering recommends items to users based on their preferences and the characteristics of the items. It analyzes item features such as genre, keywords, or attributes and matches them with user preferences. For example, if a user has shown a preference for action movies, the system will recommend action movies with similar characteristics.
+
+Hybrid Recommender Systems: Hybrid recommender systems combine multiple recommendation techniques to provide more accurate and diverse recommendations. They can leverage both collaborative filtering and content-based filtering approaches to overcome limitations and improve recommendation quality. Hybrid systems are often more effective than individual methods alone.
+
+Matrix Factorization: Matrix factorization is a popular technique used in collaborative filtering. It decomposes the user-item interaction matrix into lower dimensional matrices to capture latent factors or features that represent user preferences and item characteristics. By learning these latent factors, the algorithm can make predictions about user-item interactions and generate personalized recommendations.
+
+Deep Learning-based Recommenders: Deep learning models, such as deep neural networks, can also be applied to recommendation systems. These models can learn complex patterns and representations from large amounts of data, enabling them to capture intricate user-item relationships. They can automatically learn hierarchical features and make recommendations based on the learned representations.
+
+Context-Aware Recommenders: Context-aware recommendation systems take into account contextual information, such as time, location, and device, to provide more personalized recommendations. By considering the user's current context, these algorithms can tailor recommendations to specific situations, increasing their relevance and usefulness.
+
+### Math behind Recommendation algorithms:
+
