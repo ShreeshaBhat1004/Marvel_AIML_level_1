@@ -108,17 +108,17 @@ Now that we have the user and the item profiles, the next task would be to recom
 
 - We then pick the item with the highest cosine similarity, and recommend those to the user.
 # Collaborative filtering v/s Content based filtering approach:
-|Collaborative Filtering                  |Content based filtering                         |
-|------------------------------------------------------------------------------------------|
-|Content-based filtering methods require  |Collaborative filtering, on the other hand, uses| 
-quite an amount of information about an   |historical interactions between the users and   |
-item’s features, rather than its          |and items to group users with similar tastes and|
-interactions with the user. For products  |suggest new items, which are popular to the     |
-like clothes, these features can be size, | to the target user.                            |
-color, brand, material, etc., or in the   |                                                |
-case of movies, actors, genre, director,  |                                                |
-year of release, etc.                     |                                                |
---------------------------------------------------------------------------------------------
+
+| Aspect                       | Content-Based Filtering | Collaborative Filtering |
+|------------------------------|-------------------------|-------------------------|
+| **Data Requirement**         | Item data               | User behavior data      |
+| **Information Used**         | Item features           | User-item interactions  |
+| **Domain Knowledge**         | Requires domain knowledge for feature engineering | Does not require in-depth domain knowledge |
+| **Learning Approach**        | Hand-engineered features | Automatically learns embeddings |
+| **Data Dependencies**        | User and item data      | User behavior data only |
+
+Please note that the table is for illustrative purposes and may not cover all aspects or nuances of content-based filtering and collaborative filtering.
+
 **Conclusion**
 In conclusion, recommendation systems have become an integral part of our digital lives, revolutionizing the way we discover content, products, and services. These systems leverage machine learning algorithms and techniques to analyze user behavior, preferences, and historical data, enabling them to provide personalized and relevant recommendations. From e-commerce and streaming platforms to social media and travel websites, recommendation systems have found applications in various domains, enhancing user experiences, boosting engagement, and driving business growth. With ongoing advancements in machine learning and data analytics, we can expect recommendation systems to continue evolving, delivering even more accurate and tailored recommendations. As users, we can look forward to a future where our interactions with technology are seamlessly personalized, making our digital journeys more enjoyable and efficient than ever before.
 
