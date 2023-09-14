@@ -45,4 +45,5 @@ Fitting the training data into the model
 Checking the accuracy
 ![image](https://github.com/ShreeshaBhat1004/Marvel_AIML_level_2/assets/111550331/7968bf2e-ae1a-4064-8664-13bd5b2174d7)
 
+Thus we get a 100% accuracy for our model
 
