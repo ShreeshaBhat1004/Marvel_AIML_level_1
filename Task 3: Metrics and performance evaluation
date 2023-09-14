@@ -1,0 +1,19 @@
+### Task 3: Metrics and performance evaluation:
+Evaluation metrics : These are the tools which helps us assess the accuracy of the machine learning models. We will be looking into
+- Regression metrics and classification metrics
+
+#### Regression metrics:
+- These are the tools which helps us assess the regression model and its accuracy.
+Some of them are
+- Mean absolute error
+- Mean squarred error
+- Root mean squarred error
+
+#### Classification metrics
+- These are the tools which helps us test the accuracy or various factors of correctness of a classification model
+some of them are
+- Accuracy: no. of correct predictions divided by all instances
+- Precision: Proportion of true positive predictions and all positive predictions
+- Recall: This focuses on the completeness of correct predictions
+
+We will one of each types of evaluation metrics to evaluate our hand crafted models of task 4.
