@@ -15,3 +15,8 @@ The following code prints the graph of a function which is combination of 2 sine
 however we can see what those frequencies are without explicitly knowing it beforehand, through fourier transform.
 ![Screenshot 2023-08-25 175457](https://github.com/ShreeshaBhat1004/Marvel_AIML_level_2/assets/111550331/ff8384d1-cd41-4a6a-a418-d63daac83e0a)
 We can see that the frequencies are 50 and 80.
+
+```py
+import she
+```
+
